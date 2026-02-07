@@ -17,7 +17,6 @@ body {
   text-decoration: none;
 }
 .contacts {
-  font-style: normal;
 }
 /* Цвет при наведении для ссылок в меню */
 .nav-link:hover,
