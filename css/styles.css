@@ -53,7 +53,7 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
-  /* Если они у тебя прыгают в центр, добавь это: */
+  
   text-align: left;
 }
 .team-item {
@@ -138,12 +138,16 @@ span {
 }
 
 /* 3. Секция Team (Светло-серая полоса Our Team) */
-/* Чтобы это сработало, добавь в HTML класс "team" для этой секции: <section class="team"> */
-.team {
-  background-color: #f4f4fd; /* Тот самый светло-серый фон с макета */
-  padding: 120px 0;
-}
 
+.team {
+  background-color: #F4F4FD;
+  padding: 120px 0; 
+
+.team-item {
+  background-color: #FFFFFF; 
+  border-radius: 0px 0px 4px 4px; 
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08); /* Тень карточки */
+}
 .team h2 {
   font-size: 36px;
   line-height: 1.11;
@@ -168,12 +172,11 @@ span {
   margin-bottom: 16px;
 }
 
-/* Делаем Studio белым только внутри футера */
+
 .footer-logo .logo-part {
   color: #f4f4fd;
 }
 
-/* Стили для текста в футере */
 .footer-text {
   color: #f4f4fd;
   line-height: 1.5;
