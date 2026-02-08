@@ -50,18 +50,15 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-bottom: 8px;
   
   text-align: left;
 }
+  .team {
+    background-color: #F4F4FD;
+  }
+
 .team-item {
   background-color: #ffffff; /* Белый фон карточки */
-  border-radius: 0px 0px 4px 4px;
-  /* Добавляем тень, как в макете */
-  box-shadow:
-    0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16),
-    0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 /* Имена участников команды */
 .team-subtitle {
@@ -89,6 +86,9 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+.contacts {
+  font-style: normal;
 }
 /* Цвет при наведении для контактов */
 .contacts-link:hover,
