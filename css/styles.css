@@ -16,8 +16,6 @@ body {
   color: #4d5ae5;
   text-decoration: none;
 }
-.contacts {
-}
 /* Цвет при наведении для ссылок в меню */
 .nav-link:hover,
 .nav-link:focus {
@@ -65,6 +63,26 @@ body {
     0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 2px 1px rgba(46, 47, 66, 0.08);
 }
+/* Имена участников команды */
+.team-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+/* Должности участников команды */
+.team-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-align: center;
+}
+
 /* Стили для текста под этими заголовками */
 .features-item-text {
   font-size: 16px;
